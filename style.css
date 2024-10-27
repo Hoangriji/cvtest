@@ -202,12 +202,16 @@ body{
     font-weight: 400;
 }
 
+.profile__desc__information--desc::placeholder{
+    color: #ADA7A7;
+}
+
 .profile__desc__information--desc{
-    width: 100%;
+    width: calc(100% - 10px);
     height: 52px;
     margin-top: 12px;
     box-sizing: border-box;
-    color: #ADA7A7;
+    padding-left: 10px;
 }
 
 .profile__desc__mail__title{
@@ -239,3 +243,4 @@ body{
     font-weight: 400;
     margin: 0;
 }
+
